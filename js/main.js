@@ -16,7 +16,7 @@ function loaded () {
 	myScroll = new IScroll('#bodyscroll', { bounceEasing: 'elastic', bounceTime: 1200 });
 }
 
-document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+// document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
   
   documentElem.on('scroll', function () {
     var currentScrollTop = $(this).scrollTop();
